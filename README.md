@@ -1,1 +1,39 @@
-# filmotech
+# 🎬 Projet BTS SIO - FILMOTECH
+
+Projet de cours en BTS SIO - " Station de surveillance de la qualité de l'air "
+
+## ❗ Informations
+
+#### Version du site : ` V.1 `
+#### Avancement : ` Terminé `
+#### Déploiement : ` Terminé `
+
+
+## 🧩 Auteurs
+
+- [@julien-gournay](https://github.com/julien-gournay)
+- [@blastekk](https://github.com/Blastekk)
+
+
+## 💻 Accéder au site
+
+#### Site hébergé : http://filmotech.juliengournay.fr
+
+
+## 🔐 Développement
+
+#### Code OpenSource : https://github.com/julien-gournay/filmotech/issues
+
+
+## 💚 Principe
+
+Ce projet est utilisé à des fins éducatives pour :
+
+- Lycée Gaston Berger, Lille FRANCE
+- Portfolio Julien Gournay
+
+
+## 🔨 Support
+
+Pour toutes informations : contact@juliengournay.fr
+
