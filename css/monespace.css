@@ -1,0 +1,266 @@
+:root{
+    --gris: #0E0E0E;
+    --rouge:rgb(255, 81, 58);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: var(--gris);
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: var(--rouge);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    margin: 0 2rem;
+}
+.name{
+    display: flex;
+    align-self: center;
+}
+.compte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.8rem;
+}
+h1{
+    color: var(--gris);
+    display: flex;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    flex-wrap: wrap;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color: var(--gris);
+}
+nav button{
+    padding: 10px 30px;
+    background-color: var(--gris);
+    color: var(--rouge);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.bienvenue{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.bienvenue a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: var(--gris);
+    text-transform: uppercase;
+}
+.bienvenue a:hover{
+    text-decoration: underline;
+}
+nav button:hover{
+    background-color: white;
+    color: var(--rouge);
+}
+
+
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.connexion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  
+input{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 20rem;
+}
+form button {
+    padding: 10px 20px;
+    background-color: var(--rouge);
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 22.5rem;
+    font-size: 16px;
+}
+.boutonModif button, .boutonSuppr button {
+    padding: 10px 20px;
+    background-color: var(--rouge);
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 22.5rem;
+    font-size: 16px;
+    margin-right: 1rem;
+}
+.boutonModif{
+    margin-bottom: 1rem;
+}
+.info button:hover {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.sectionnote, .banniere{
+    display: flex;
+    justify-content: center;
+}
+.note{
+    display: flex;
+    width: 75vw;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: rgb(44, 44, 44);
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.infocompte{
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    width: 75vw;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: rgb(44, 44, 44);
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.compteBouton{
+    display: flex;
+    gap: 1rem;
+}
+.info form {
+    margin-top: 2rem;
+}
+.card{
+    width: 10rem;
+    height: 14rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 30px 50px #757575;
+    /*filter: brightness(25%);*/
+}
+.grid-card{
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 8vw;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    padding: 20px 12px;
+    color: white;
+    backdrop-filter: blur(5px);
+    backdrop-filter: brightness(50%) blur(1px);
+    opacity: 0;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+    height: 83%;
+    width: auto;
+}
+.card:hover p{
+    opacity: 1;
+}
+.redirection{
+    width: 10rem;
+    height: 14rem;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+}
+
+#popup3{
+    display: none; /* La pop-up est cachée par défaut */
+    position: fixed; /* La pop-up est positionnée par rapport à la fenêtre */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    z-index: 100; /* La pop-up est au-dessus de tout le contenu */
+}
+.contenu-popup3{
+    color: var(--gris);
+    position: absolute; /* Le contenu de la pop-up est positionné par rapport à la pop-up */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centre le contenu de la pop-up */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contenu-popup3 .bouton{
+    display: flex;
+    margin-top: 2rem;
+    gap:0.8rem;
+}
+button{
+    padding: 10px 20px;
+    background-color: var(--rouge);
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
