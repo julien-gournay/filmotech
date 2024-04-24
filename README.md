@@ -1,6 +1,6 @@
 # 🎬 Projet BTS SIO - FILMOTECH
 
-Projet de cours en BTS SIO - " Station de surveillance de la qualité de l'air "
+Projet de cours en BTS SIO - " Site web utilisant du JS, PHP et une base de données "
 
 ## ❗ Informations
 
