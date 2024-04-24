@@ -4,7 +4,7 @@ Projet de cours en BTS SIO - " Station de surveillance de la qualité de l'air "
 
 ## ❗ Informations
 
-#### Version du site : ` V.1 `
+#### Version du site : ` V1.0 `
 #### Avancement : ` Terminé `
 #### Déploiement : ` Terminé `
 
